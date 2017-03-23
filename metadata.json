@@ -1,0 +1,26 @@
+{
+  "name": "Fabian1976-dhcrelay",
+  "version": "1.0.0",
+  "author": "Fabian1976",
+  "summary": "Module for managing and configuring a DHCP relay server",
+  "license": "MIT",
+  "source": "https://github.com/Fabian1976/puppet-dhcrelay",
+  "project_page": "https://github.com/Fabian1976/puppet-dhcrelay",
+  "issues_url": "https://github.com/Fabian1976/puppet-dhcrelay",
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "5",
+        "6",
+        "7"
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "name":"puppetlabs-stdlib",
+      "version_requirement": ">= 4.0.0 < 5.0.0"
+    }
+  ]
+}
